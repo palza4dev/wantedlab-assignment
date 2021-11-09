@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ['WANTEDLAB_DB_NAME'],
         'USER': os.environ['WANTEDLAB_DB_USER'],
-        'PASSWORD': os.environ['WANTEDLAB_DB_PASSOWRD'],
+        'PASSWORD': os.environ['WANTEDLAB_DB_PASSWORD'],
         'HOST': os.environ['WANTEDLAB_DB_HOST'],
         'PORT': os.environ['WANTEDLAB_DB_PORT']
     }
@@ -132,7 +132,7 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
+APPEND_SLASH = False
 ##CORS
 CORS_ORIGIN_ALLOW_ALL=True
 CORS_ALLOW_CREDENTIALS = True
