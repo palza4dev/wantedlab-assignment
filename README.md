@@ -9,12 +9,13 @@
 
 |이름   |github                   |담당 기능|
 |-------|-------------------------|--------------------|
-|문승준 |[palza4dev](https://github.com/palza4dev)     | DB Modeling, postman api 작성, 로그인, 상품관리 기능, unit test |
 |구본욱 |[qhsdnr0](https://github.com/qhsdnr0)   | DB Modeling, postman api 작성, 로그인, 상품관리 기능, unit test  |
-|김지훈 |[kimfa123](https://github.com/kimfa123) | DB Modeling, 로그인, 상품관리 기능, unit test |
-|이다빈 |[thisisempty](https://github.com/thisisempty)     | 개발 및 배포 환경 설정, README 작성 |
+|이다빈 |[thisisempty](https://github.com/thisisempty)     | DB Modeling, postman api 작성, 로그인, 상품관리 기능, unit test  |
+|김주현 |[kjhabc2002](https://github.com/kjhabc2002) | DB Modeling, 로그인, 상품관리 기능, unit test |
+|문승준 |[palza4dev](https://github.com/palza4dev) | 개발 및 배포 환경 설정, README 작성 |
+|김지훈 |[kimfa123](https://github.com/kimfa123) | 개발 및 배포 환경 설정, README 작성 |
 |양가현 |[chrisyang256](https://github.com/chrisyang256)   | 개발 및 배포 환경 설정, README 작성 |
-|김주현 |[kjhabc2002](https://github.com/kjhabc2002) | 개발 및 배포 환경 설정, README 작성 |
+
 
 ### [과제  안내]
 
@@ -39,6 +40,7 @@
     
 - 데이터셋 예제
     - 원티드랩 회사는 한국어, 영어 회사명을 가지고 있습니다. (모든 회사가 모든 언어의 회사명을 가지고 있지는 않습니다.)
+![Untitled](https://user-images.githubusercontent.com/89339349/140921849-42c3a77b-2f7e-4775-bf52-ffc656ac7f76.jpg)
 
 
 ✔️ **REST API 기능**
@@ -67,7 +69,7 @@
     
 ## 사용 기술 및 tools
 > - Back-End : PYTHON, Django Framework, My SQL
-> - Deploy : AWS EC2
+> - Deploy : AWS EC2 Docker
 > - ETC : GIT, GITHUB, POSTMAN
 
 ## 모델링
@@ -90,10 +92,10 @@ https://documenter.getpostman.com/view/17676214/UVC3j7i1
 - 관리자는 로그인시에(header에 token이 있는 상태) 상품 추가/수정/삭제가 가능하도록 하였습니다. 
 - 상품 조회의 경우 query string을 이용한 pagination, Q객체와 __contains를 이용한 상품검색, 카테고리 필터링 등의 기능을 구현하였습니다.
 
-### AWS 배포 (DOCKER 구현시도)
+### Docker AWS 배포 
 
- - 도커를 통해 개발용 환경과 배포용 환경을 구축하여 팀원들의 개발환경 셋팅시간을 줄여줘서 구현에 더 집중할 수 있게 적용하려고 하였습니다. 
- - 그러나 도커 내부에 환경변수를 세팅하는 과정에서 docker run 수행시 SECRET KEY ERROR를 포함한 알수없는 에러가 발생하였습니다.
+ - 도커를 통해 개발용 환경과 배포용 환경을 구축하여 팀원들의 개발환경 셋팅시간을 줄여줘서 구현에 더 집중할 수 있게 적용하였습니다. 
+ - 도커 내부에 환경변수를 세팅하는 과정에서 docker run 수행시 SECRET KEY ERROR를 포함한 알수없는 에러가 발생하였습니다.
  - 팀원들과 다시 도커 컨테이너 생성부터 시작해서 환경변수를 넘겨주는 과정까지 시도해보았으나 같은 현상이 계속 발생하여 결국에는 AWS EC2로 배포하였습니다.
  - 아무래도 도커를 처음 접하다보니 단지 명령만 실행하고 결과만 보여주면 된다는 생각만 했던 것 같습니다. 
  - 이번 기회에 팀원들과 다시 도커에 대해 공부해보고 다음 프로젝트에서는 도커를 통해 배포하도록 하겠습니다.
