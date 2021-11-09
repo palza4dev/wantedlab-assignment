@@ -365,3 +365,6 @@ zsdoc/data
 data/
 
 env.deploy
+
+db_uploader.py
+wanted_temp_data.csv

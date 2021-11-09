@@ -16,6 +16,9 @@ Including another URLconf
 
 from django.urls import path, include
 
+from company.views import CompanyView
+
 urlpatterns = [
-    path('companies', include('company.urls'))
+    path('companies', include('company.urls')),
+    path('search' , CompanyView.as_view())
 ]
