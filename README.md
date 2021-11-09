@@ -1,4 +1,4 @@
-# [Assignment 3] Wanted-Freshcode-Preonboarding
+# [Assignment 3] Wanted-wantedlab-Preonboarding
 원티드x위코드 백엔드 프리온보딩 과제3
 
 - 과제 제출 기업정보
