@@ -3,7 +3,7 @@
 
 - 과제 제출 기업정보
   - 기업명 : 원티드
-  - [ 사이트](https://www.wanted.co.kr/)
+  - [원티드 사이트](https://www.wanted.co.kr/)
   - [원티드 채용공고 링크](https://www.wanted.co.kr/search?query=%EC%9B%90%ED%8B%B0%EB%93%9C)
 ## Members
 
