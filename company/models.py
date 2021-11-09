@@ -38,3 +38,10 @@ class TagLanguage(models.Model):
 
     class Meta:
         db_table = 'tags_languages'
+
+class RelatedCompany(models.Model):
+    company         = models.ForeignKey(Company, on_delete=models.CASCADE, related_name='company')
+    related_company = models.ForeignKey(Company, on_delete=models.CASCADE, related_name='related_company')
+
+    class Meta:
+        db_table = 'related_companies'
