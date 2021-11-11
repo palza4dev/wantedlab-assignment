@@ -13,7 +13,7 @@
 | 이름   | github                                          | 담당 기능                                                    |
 | ------ | ----------------------------------------------- | ------------------------------------------------------------ |
 | 구본욱 | [qhsdnr0](https://github.com/qhsdnr0)           | DB Modeling, postman api 작성, 회사 등록 기능, unit test     |
-| 이다빈 | [thisisempty](https://github.com/thisisempty)   | DB Modeling, postman api 작성, 회사 상세 조회 기능, unit test |
+| 이다빈 | [thisisempty](https://github.com/thisisempty)   | DB Modeling, db_uploader ,postman api 작성, 회사 상세 조회 기능, unit test |
 | 김주현 | [kjhabc2002](https://github.com/kjhabc2002)     | DB Modeling, 회사 자동 완성 기능, unit test                  |
 | 문승준 | [palza4dev](https://github.com/palza4dev)       | 개발 및 배포 환경 설정, README 작성                          |
 | 김지훈 | [kimfa123](https://github.com/kimfa123)         | 개발 및 배포 환경 설정, README 작성                          |
