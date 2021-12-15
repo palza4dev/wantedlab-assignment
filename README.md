@@ -7,20 +7,6 @@
   - [원티드 채용공고 링크](https://www.wanted.co.kr/search?query=%EC%9B%90%ED%8B%B0%EB%93%9C)
 
 
-
-## Members
-
-| 이름   | github                                          | 담당 기능                                                    |
-| ------ | ----------------------------------------------- | ------------------------------------------------------------ |
-| 구본욱 | [qhsdnr0](https://github.com/qhsdnr0)           | DB Modeling, postman api 작성, 회사 등록 기능, unit test     |
-| 이다빈 | [thisisempty](https://github.com/thisisempty)   | DB Modeling, db_uploader ,postman api 작성, 회사 상세 조회 기능, unit test |
-| 김주현 | [kjhabc2002](https://github.com/kjhabc2002)     | DB Modeling, 회사 자동 완성 기능, unit test                  |
-| 문승준 | [palza4dev](https://github.com/palza4dev)       | 개발 및 배포 환경 설정, README 작성                          |
-| 김지훈 | [kimfa123](https://github.com/kimfa123)         | 개발 및 배포 환경 설정, README 작성                          |
-| 양가현 | [chrisyang256](https://github.com/chrisyang256) | 개발 및 배포 환경 설정, README 작성                          |
-
-
-
 ### [과제  안내]
 
 - 원티드 선호 기술스택: Python flask 또는 fastapi
@@ -70,6 +56,14 @@
 - 필요한 조건이 있다면 추가하셔도 좋습니다.
 - Docker로 개발하면 가산점이 있습니다.
   
+
+
+## 문승준 담당 업무
+
+
+- Docker를 활용한 배포 환경 설정
+- README 작성
+
 
 
 
